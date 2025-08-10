@@ -1,0 +1,100 @@
+
+                                                                WHAT IS THE DEVOPS ? LETS EXPLAIN
+
+for example you are very hungry and you want to order some food and you have 2 application first swiggy second zomato 
+you want to order Biryani and Biryani price is 100 
+     swiggy                         zomato
+20 minutes to delivery       30 minutes take to delivery
+so which one will you pick ? difinitely swiggy
+same like methological devops
+so we have waterfall and scream and agile and devops
+Devops        other
+1 year        2 year
+so in order to delivery on application very speedly in to the market 
+so reason we choose to Devops 
+why devops ?
+in software domain  we have 2 teams 
+Development |  operation
+plan        |  deploy
+code        |  operation
+build       |  monitoring
+test        |
+...................................................................................................................................
+As devops engineer your main gaol is the deployments
+after that we need to operate the application and finally we need to monitor 
+monitor means how are application is running 
+how my application is behaving by using thousand to million users use application so how behaving my application so like that 
+....................................................................................................................................
+what we call us SDLC 
+SDLC means software development life cycle
+so in  SDLC has 2 teams 
+team number one is development team and team number two operation 
+what does development team to do 4 things to do and what does operation has to do 3 thing
+Development |  operation
+plan        |  deploy
+code        |  operation
+build       |  monitoring
+test        |
+......................................................................................................................................
+in devops we use the 12 tools 
+1 git
+2 github
+3 maven
+4 jenkins
+5 ansible
+6 docker 
+7 kubernetes
+8 teraform
+9 nagios
+10 sonarqube
+11 j frog 
+12 nexus 
+......................................................................................................................................
+                                                                           SOFTWARE ARCHITECTURE
+
+software architecture consists of 
+1 tier
+2 tier
+3 tier
+N tier     architectures
+a tier can also be referred to as a layer
+( tier = layer = server )
+tree layer are involved in the application 
+layers names
+1 presentation layer
+2 business layer
+3 data layer 
+lets see  each layer in details 
+                                                                            PRESENTATION LAYER
+it is also known as the client  layer the top layer of an application this is the layer we use 
+whene we use the software by using this layer we can access web pages 
+the main function of this layer is to communicate with the application layer this layer passes the information 
+which is given by the use in term  of keyboard action mouse click to the application layer
+[in simple words it is to view the application]
+
+                                                                            APLICATION LAYER
+it is also known as business logic layer which is also known as the logical layer 
+it controls an application functionality by performing  details processing  the layer act
+in simple words it is to view the application
+as a meditor between the presentation and database layers complite business logic will be written in this layer 
+[in simple words it is to perform operation on the application]
+
+                                                                              DATA LAYER
+the data is stored in this layer
+in application layer communicates with the database layer to retrieve  the data 
+it contains methods that connect the database and performs required action E G insert update delete etc
+in simple words it is to share and retrieve the data 
+
+NOTE interview questions give the answers in simple words 
+it is to view the application]
+it is to perform operation on the application 
+it is to share and retrieve the data
+
+PRESENTATION LAYER                   APPLICATION LAYER                          DATA LAYER
+client/user layer top layer          business/logic layer middle layer          database layer last laye                        
+access web pages                     to use application                         to store and retrieve data
+UI UX developers                     developers programming                     database admins
+web technologies                     Java Python Go                             database languages
+HTML CSS JS                                                                     SQL  MY SQL ARANGO MARIA
+                                                                                SQ/ sequel  MY SQL/ my sequel
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
