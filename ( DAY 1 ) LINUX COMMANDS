@@ -1,0 +1,80 @@
+    A                B
+1/:sudo -i       :sudo su - >| for go to root user
+
+2/:sudo su >| switch to EC2 user but not in first line 
+
+3/:control+d >| to logout go to EC2 user 
+
+4/:touch file1 >| to create a file
+
+5/:cat>file and enter hii all good morning :control+d >| to create a file with content 
+
+6/:cat>>file1 and enter hello all how are you :control+d >| to rewrite in file1 
+NOT if you not give >> 2nd time before content will deleted
+
+7/:echo "hii all how are you"> file2 :control+d >| echo also create a file with print
+
+8/:ls >| to list of the files
+
+9/:ll this is LL not eleven >| to list the files with details
+
+10/  A          B
+  :ls -a      ll -a >| to see .file means hidden file
+
+11/    A              B
+   :cat file1     more file1 >| to see content in file1 
+
+12/:cp file1 file2 >| to copy content file1 to file2
+
+13/:mv file2 file5 >| to rename file name
+
+14/:rm file1 >| to delete a file
+
+15/:rm -f file1 >| to delete forcefully -f means forcefully
+
+16/:rm -f* java >| to delete all files 
+
+17/:rm -f {11..17} >| to delete any numbers to any number like {11..17}
+
+18/:touch file {1..10} >| to create many files together like 1 to 10  1 to 50 
+
+19/:mkdir dir1 >| to create directory means folder 
+
+20/:pwd dir1 >| for details of dir1 
+
+21/:cd >| to change directory means ? :cd dir1 for go to dir1 :cd dir2 for go to dir2 like this
+
+22/:cd.. >| to go 1 directory back 
+
+23/:cd../../ >| to 2 directory back 
+
+24/:cd - >| for go to lst directory and for root
+
+25/:mkdir dir1/dir2 to create dir2 in dir1
+
+26/:mkdir dir1/dir2/abc >| to create abc folder in dir2
+
+27/:ll dir1/dir2 >| to see in dir2
+
+28/:touch dir1/hyd >| to create file in dir1
+
+29/:touch dir1/dir2/kar >| to create file in dir2
+
+30/:yum install tree -y >| to install tree for see which directory and files where is
+
+31/:rm -rf dir1 >| for delete forcefull -rf means if available any content and files in dir1 will be deleted
+
+32/:head >| to show top 10 lines of content
+
+33/:head -7 >| to show top 7 lines 
+
+34/:tail >| to show last 10 lines of content
+
+35/:tail -5 >| to show last 5 lines  
+
+36/:sed -n '5,15p' numbers >| to show 5 to 15 lines
+
+37/:wc file1 >| to get the numbers of lines
+
+38/:cat -n to get the numbers of lines with details 
+    
