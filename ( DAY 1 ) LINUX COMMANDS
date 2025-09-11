@@ -1,4 +1,6 @@
-    A                B
+                                       ( DAY 1 ) LINUX COMMANDS
+
+A                B
 1/:sudo -i       :sudo su - >| for go to root user
 
 2/:sudo su >| switch to EC2 user but not in first line 
