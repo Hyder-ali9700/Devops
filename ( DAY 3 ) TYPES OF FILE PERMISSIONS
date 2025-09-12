@@ -1,0 +1,28 @@
+                                                            TYPES OF FILES PERMISSSIONS
+
+-rw-r--r--1 root root
+1 - regular file
+2 b block file 
+3 c charecter file
+4 l limk file 
+5 . hidden file 
+
+permission rw-r--r-- 3 types of file permission
+read r4
+write w2
+executable x1
+
+categories  user group others 
+numberical method and alphabetical method 
+1/:chmod 777 file1 >| 777 means full permission
+2/:chmod u=rwx,g=rw,o=rw file1
+3/:chmod 761 file1           
+-rwx rw- --x
+  7   6   1
+4/:chmod 777* >| for all files full permission
+              owner
+-rw- r-- r--1 root root
+              hyder
+5/:useradd hyder >| to create user
+        A                                    B
+6/:cat /etc/ passwd          :getent passwd >| to check user list
