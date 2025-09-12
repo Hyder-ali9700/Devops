@@ -1,7 +1,54 @@
-                                                                              ( DAY 2 ) VIM EDITOR
+                                                   ( DAY 2 ) VIM EDITOR
 
 1/:vim file1 >| for go to file edit and customise
 
 2/:i >| small i use for insert mode to write
 
 3/:ecs button >| for exit from insert mode
+
+                                         
+                                                         SAVE MODE
+
+4/:w! >| for save
+
+5/:q! >| for quit
+
+6/:wq! >| save ane quit 
+
+                                                        COMMANDS MODE 
+
+7/:i >| small i to insert the content insert mode
+
+8/:I >| capital I to move biginning of the line
+
+9/:A >| capital A to move end of the line 
+
+10/:O >| capital O to create new line upper side 
+
+11/:o >| small o to create new line lower side
+
+12/:gg >| go to top of line
+
+13/:shift+g >| go to bottom of the line 
+
+14/:yy >| to copy single line
+
+15/:3yy >| to copy 3 lines
+
+16/:p >| to paste copied line
+
+17/:3p >| to paste 3 lines
+
+18/:dd >| to delete the line
+
+19/:3dd >| to delete the 3 lines 
+
+20/:u >| undo means deleted line get back
+
+21/:100dd >| delete 100 lines
+
+22/:word >| for finding words just like \book \pen \bike like this
+
+23/: :set numbers >| to get the numbers of the lines in VIM 
+
+24/: :500 :200 :30 >| like this to get perticular number of the line
