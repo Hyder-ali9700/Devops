@@ -1,4 +1,4 @@
-                                                                   GREP                  AND        SED
+                                                                    GREP                  AND        SED
                                                       GLOBAL REGULAR EXPRESSION PRINT           STREAM EDITOR
 
                                                                                 GREP
@@ -16,6 +16,11 @@ both are same to find words
 
 =======================================================================================================================================================================================================================
                                                                                 SED
-1/:sed 's /hai/hello/' file1 >| to change word
+1/:sed 's/ hai/hello/' file1 >| to change word
+NOTE> not change in original file but if you use this
 
-2
+2/:sed 's/ hai/hello/' file1 > file2 >| to change words with create a new file
+
+3/:sed 's/ we/you/;s/ hello/hai/' file2 > file3 >| change words and created new file
+
+4/:sed -n '5,15p' numbers >| to see 5 to 15 lines of content 
