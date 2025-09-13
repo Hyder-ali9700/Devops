@@ -1,0 +1,21 @@
+                                                                   GREP                  AND        SED
+                                                      GLOBAL REGULAR EXPRESSION PRINT           STREAM EDITOR
+
+                                                                                GREP
+1/:grep class file1 >| to find word outside VIM
+
+2/:grep cLAss file1 -i >| if you use capital alphabet like A M K D V this so no matter if you use this -i
+
+3/:grep 'all\|linux' file1 >| to find multiple words
+
+4/:grep 'good\|today\|class' file1 >|to find 3 words 
+
+         A                               B
+5/:grep hai file1 -i     :cat file1 then enter grep hai -i
+both are same to find words
+
+=======================================================================================================================================================================================================================
+                                                                                SED
+1/:sed 's /hai/hello/' file1 >| to change word
+
+2
