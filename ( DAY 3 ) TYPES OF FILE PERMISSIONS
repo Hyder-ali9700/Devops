@@ -26,3 +26,48 @@ numberical method and alphabetical method
 5/:useradd hyder >| to create user
         A                                    B
 6/:cat /etc/ passwd          :getent passwd >| to check user list
+when you add user GROUP automaticaly came and folder also
+
+7/:ls /home/ >| to see folder
+
+8/:getent group >| to list of the group
+
+9/:chown hyder file1 >| to get ownership means replace root name with hyder
+            owner  group 
+-rw-r--r--1 root   root
+            hyder  karamath
+NOTE>>| you have to do this first> useradd hyder then you can own root :chown hyder so do like this
+
+10/:chgrp karamath file1 >| to replace 2nd root
+
+11/:chown karamath::hyder >| to change name NOTE this : mean cammond but when you see this :: user it : but single
+
+12/:id hyder >| to check details
+uid=1001{hyder}gid=1001{hyder}group=1001{hyder}
+
+13/:groupadd devops >| to add group 
+
+14/:getent group >| to check group
+uid=1001{hyder}gid=1001{hyder}group=1001{hyder}
+                                        karamath
+
+15/:usermode -ag devops hyder >| to create group
+
+16/:userdel hyder >| to delete user then check :id hyder 
+first go to :cat /etc/ passwd >| then you can see 1000. ec2-user 1000 
+3 types of user 
+1/ root user 
+2/super user 
+3/ normal user
+root he is admin  super user created by root and have all permission like  root user and  normal user also created by root  but doesnt have any permission
+
+1/:useradd hyder
+2/:passwd hyder
+now create password and type
+NOTE> when you type password thats invisible
+3/:visudo >| ::100 you can see root all   then capy root all :yy and paste below the line then rename root to hyder then exite :wq!
+4/:su -hyder >| to go to hyder user 
+5/:sudo yum install tree >| to download tree
+NOTE> when you use hyder user    use sudo to download and touch cat like this no need to sudo
+6/:sudo useradd karamath >| to create user in hyder 
+7/:logout >| to go to root
