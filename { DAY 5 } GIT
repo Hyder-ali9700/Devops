@@ -1,0 +1,28 @@
+                                                                                     GIT
+                                                                CREATE A FILE --> ADD --> COMMIT --> RESTORE
+Full form of GIT global information tracker
+
+Do this step by step 
+
+1/:mkdir swiggy >| create folder first 
+
+2/:cd swiggy >| go to swiggy folder
+
+3/:yum install git -i >| to install git
+
+4/:git init >| to install empty .git repo
+
+5/:ll -a >| to check .get
+
+6/:touch java1 >| to create a file 
+
+7/:git status >| to check status of the file
+
+8/:gitadd java1 >| to track the file 
+RED COLOUR MEANS UNTRACKER    GREEN MEANS TRACKERED
+
+9/:git commit -m "commit-1" java1
+
+10/:git log >| to check commit history
+
+11/:git log --oneline >| to see commit in single line
