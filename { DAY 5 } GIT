@@ -26,3 +26,31 @@ RED COLOUR MEANS UNTRACKER    GREEN MEANS TRACKERED
 10/:git log >| to check commit history
 
 11/:git log --oneline >| to see commit in single line
+
+12/:git config user.name"hyder"
+
+13/:git config user.email"hyderali@gmail.com"
+
+14/:touch java2 
+
+15/:git add java2
+
+16/:git commit -m "commit 2" java2
+
+17/:git log >| now you can see your name and email
+
+18/:touch python{1..5}
+
+19/:touch js{1..5}
+
+20/:vim git ignore >| to hide flies just like js* means all js files and python1 python2
+
+21/:git add* >| to add all files
+
+22/:git commit -m "commit 4" p*
+
+23/:git log -3 >| to see last 3 commits
+
+24/:git log -3 --oneline 
+
+25/:git restore --staged java1 >| to unlock java1
