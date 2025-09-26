@@ -78,11 +78,13 @@ git restore --staged file1 to untrack
 
 30/:git restore --staged file1 --> to untrack file
 
-31/:git restore --staged file2
+31/:git restore --staged file2 so
+=================================================================================================================================================================
+                                                            CHERRY-PICK
+if branch1 some files like java python php abc all this files in branch1 so u wanna python files get in branch2
 
-
-
-
+1/:git cherry-pick python  and paste python commit id --> to get specific file
+:git log --> to get id
 ====================================================================================================================================================================
                                                      PUSH AND CREATE REPOSITORY
 
