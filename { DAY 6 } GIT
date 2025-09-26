@@ -96,6 +96,7 @@ limk looks like this --> git remote add origin http://github.com/hyderali9700/sw
 2/:git push origin master
 and give user name hyderali9700
 in password use tokens
+NOTE> if you inter wrong any word so you con't got back so use control+z
 =====================================================================================================================================
                                           CREATE TOKENS
 go to setting --> developer --> personal access token --> classic --> generate --> give name like swiggy --> and select first 6 options --> select generate token
