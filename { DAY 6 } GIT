@@ -84,7 +84,7 @@ git restore --staged file1 to untrack
 
 
 ====================================================================================================================================================================
-                                                      CREATE REPOSITORY
+                                                     PUSH AND CREATE REPOSITORY
 
  click on repository --> give name --> click on create repository
 
