@@ -56,7 +56,7 @@ this is means dth branch createed by movies   its means that which branch are yo
 one more example if you select recharge and create new branch so that branch created by recharge
 
 ===================================================================================================================================================================================================================
-                                            MERGE TO COMBINE THE BRANCH AND UNMERGE
+                                   MERGE PART-1         MERGE TO COMBINE THE BRANCH AND UNMERGE
 MASTER> so select --> master + movies = all files from movies branch will come to master
 
 25/:git merge movies >| if you want merge in master so select first master branch
@@ -64,6 +64,25 @@ MASTER> so select --> master + movies = all files from movies branch will come t
 26/:git merge train
 
 27/:git merge recharge
+==========================================================================================
+                                    MERGE PART-2
+merge means copy from different branch but file name is same like a file1
+1 java developer                2 python developer
+branch 1                        branch 2
+file1                           file1
+vim                             vim
+content                         content
+this is my java code version 2.0          this is my python code version 1.0
+content is defferent but file is same 
+
+1/:git merge branch-2
+failed why conflict what is the conflict means 
+2/:git diff file1
+and you can see content so go to
+3/:vim file1 --> delete symbols like this >>>> or this ====== '"?/<.> some symbols like this you see 
+so delete that use dd
+4/:git add file1
+5/:git commit -m "new"   not type file1
 ===============================================
                 REVERT 
 
