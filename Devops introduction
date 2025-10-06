@@ -14,7 +14,7 @@ Devops        other
 so in order to delivery on application very speedly in to the market 
 so reason we choose to Devops 
 why devops ?
-in software domain  we have 2 teamsEEe
+in software domain  we have 2 teams
 Development |  operation
 plan        |  deploy
 code        |  operation
@@ -65,13 +65,15 @@ layers names
 1 presentation layer
 2 business layer
 3 data layer 
-lets see  each layer in details 
+lets see  each layer in details
+...............................................................................................................................................
                                                                             PRESENTATION LAYER
 it is also known as the client  layer the top layer of an application this is the layer we use 
-whene we use the software by using this layer we can access web pages 
+when we use the software by using this layer we can access web pages 
 the main function of this layer is to communicate with the application layer this layer passes the information 
 which is given by the use in term  of keyboard action mouse click to the application layer
 [in simple words it is to view the application]
+..................................................................................................................................................
 
                                                                             APLICATION LAYER
 it is also known as business logic layer which is also known as the logical layer 
@@ -79,6 +81,7 @@ it controls an application functionality by performing  details processing  the 
 in simple words it is to view the application
 as a meditor between the presentation and database layers complite business logic will be written in this layer 
 [in simple words it is to perform operation on the application]
+...................................................................................................................................................
 
                                                                               DATA LAYER
 the data is stored in this layer
