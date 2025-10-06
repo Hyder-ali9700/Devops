@@ -144,4 +144,12 @@ in github refresh to get movies branch
 1/:git branch -m master hyder --> to rename master to hyder
 
 2/:git branch -m movies films
+======================================================================================================================================
+                                                      GIT CLONE
+git clone means like copy from github to local   hot to clone 
+go in github --> pickup repository --> click on code symbol you can see down arrow --> and copy at HTTPS
+come in local 
+1/:git clone paste the link
+NOTE> repository on public than you can clone otherwise repository on private cant clone
+
 
