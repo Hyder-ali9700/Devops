@@ -28,6 +28,23 @@ repository rename --> go to dashboard seting --> then you cam change name
 fork means like copy if you want repository from another account so use fork
 so type in search bar perticular person github id --> users --> person name --> repositoey --> fork --> create fork
 now you have repository
+=============================================================================================================================================
+                                                       DANGER ZONE
+CHANGE REPOSITORY VISIBILITY
+means public to private    private to public
+
+DISABLE BRANCH PROTECTIONRULES
+means protect your  branch
+
+transfer ownership
+to give repository ownership
+
+ARCHIVE THIS REPOSITORY
+means hide repository
+
+DELETE THIS REPOSITORY
+means delete repository
+
 
 
 
