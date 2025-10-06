@@ -10,13 +10,13 @@ then select branch if you want merge movies branch in master so select left side
 click on master branch right side mini icon you can see --> then click view all branches --> click on dustbin icon
 if you wanna get back undo branch so --> click on revert this option upper delete icon --> but do immediately refresh the page
 ==============================================================================================================================================
-                                                                   RENAME BRANCH NAME AND REPOSITORY NAME IN GITHUB
+                                                      RENAME BRANCH NAME AND REPOSITORY NAME IN GITHUB
 
 click on master right side small icon --> then you can see pen icon click on it 
 
 repository rename --> go to dashboard seting --> then you cam change name
 ==============================================================================================================================================
-                                                                    PULL FOR LOCAL
+                                                             PULL FOR LOCAL
 
 1/:git pull origin master --> to get branch from github to local
 
@@ -24,5 +24,12 @@ repository rename --> go to dashboard seting --> then you cam change name
 
 3/:git pull origin dth
 ==============================================================================================================================================
+                                                             FORK
+fork means like copy if you want repository from another account so use fork
+so type in search bar perticular person github id --> users --> person name --> repositoey --> fork --> create fork
+now you have repository
+
+
+
 
                              
