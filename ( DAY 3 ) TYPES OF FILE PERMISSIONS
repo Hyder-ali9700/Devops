@@ -65,7 +65,7 @@ root he is admin  super user created by root and have all permission like  root 
 2/:passwd hyder
 now create password and type
 NOTE> when you type password thats invisible
-3/:visudo >| ::100 you can see root all   then capy root all :yy and paste below the line then rename root to hyder then exite :wq!
+3/:visudo >| ::100 you can see root all   than capy root all :yy and paste below the line then rename root to hyder then exite :wq!
 4/:su -hyder >| to go to hyder user 
 5/:sudo yum install tree >| to download tree
 NOTE> when you use hyder user    use sudo to download and touch cat like this no need to sudo
