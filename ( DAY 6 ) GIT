@@ -56,7 +56,7 @@ this is means dth branch createed by movies   its means that which branch are yo
 one more example if you select recharge and create new branch so that branch created by recharge
 
 ===================================================================================================================================================================================================================
-                                   MERGE PART-1         MERGE TO COMBINE THE BRANCH AND UNMERGE
+        INTERVIEW QUESTION                           MERGE PART-1         MERGE TO COMBINE THE BRANCH AND UNMERGE
 MASTER> so select --> master + movies = all files from movies branch will come to master
 
 25/:git merge movies >| if you want merge in master so select first master branch
@@ -65,7 +65,8 @@ MASTER> so select --> master + movies = all files from movies branch will come t
 
 27/:git merge recharge
 ==========================================================================================
-                                    MERGE PART-2
+            INTERVIEW QUESTION              MERGE PART-2
+when you merge two different branches having the same file
 merge means copy from different branch but file name is same like a file1
 1 java developer                2 python developer
 branch 1                        branch 2
