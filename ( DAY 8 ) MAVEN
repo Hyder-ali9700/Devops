@@ -1,0 +1,24 @@
+                                                                                MAVEN
+Maven can build any number of projects into desired output such as ,jar ,war and ,ear
+jar = java archive file
+war = web archive file
+ear = enterpriss archive file
+. it is mostly  used for java based projects 
+. it was initially released on 13 july 2004
+. maven is written in java
+======================================================================================================================                                                                               
+JAVA --> COMPILE --> .CLASS --> COMPRESS --> JAR
+
+java   =  raw code                              java archive = jar = backend
+class  =  executable file                       web archive = war = frontend + backend
+jar    =  group of .class files                 enterprise archive = ear = jar + war
+========================================================================================================================
+1 > generate resource     =    mvn archetype:generate
+2 > compile code          =    mvn compile 
+3 > unit test             =    mvn test
+4 > package build         =    mvn package
+5 > install (into local repo or artifactory)   =  mvn install
+6 > deploy (to server)
+7 > clean (to delete all the runtime files)    =  mvn clean
+========================================================================================================================
+
