@@ -1,4 +1,8 @@
                                                                                 MAVEN
+INTERVIEW QUESTION 
+maven home path .m2
+
+
 Maven can build any number of projects into desired output such as ,jar ,war and ,ear
 jar = java archive file
 war = web archive file
@@ -20,5 +24,37 @@ jar    =  group of .class files                 enterprise archive = ear = jar +
 5 > install (into local repo or artifactory)   =  mvn install
 6 > deploy (to server)
 7 > clean (to delete all the runtime files)    =  mvn clean
-========================================================================================================================
+===================================================================================================================
+                                                  PRACTICAL
+type on google --> dlcdn.apache.org --> you will be see maven select maven --> maven version 3 
+--> 3.6.3 --> binaries --> copy tar .gz link and came to local
+1/:wget paste the link here
+2/:ll 
+3/:tar -zxvf apache-maven-3.6.3-bin.tar.gz --> just type a automatically came this  apache-maven-3.6.3-bin.tar.gz
+4/:cd just a type
+5/:yum install java 1.8.0-openjdk -y
+6/:java -version
+7/:yum install maven -y
+8/:maven --version
+9/:mvn archetype:generate --> project structure will come automatically
+.group id = devops
+.artifactid means project name = swiggy
+.version snapshoot --> skip or if you give any number so give
+.package --> hyder 
+10/:ll
+11/:yum install tree
+12/:cd swiggy
+13/:ll --> you can see pom.xml
+14/:tree
+15/:mvn compile --> to get .class in target folder  target folder automatically came
+16/:mvn test --> to get AppTest.class replace AppTest,java
+17/:mvn package --> to get jar   you can see   swiggy -1.0-SNAPSHOOT.jar
+18/:mvn install --> to copying to maven home path    what is the maven home path ?   .m2 is home path of maven
+19/:mvn clean --> to delete all but pom.xml or plugin still in
+==============================================================================================================
+but in real life use this
+:mvn clean package --> automatically came all compile test install like this
+===============================================================================================================
+
+
 
