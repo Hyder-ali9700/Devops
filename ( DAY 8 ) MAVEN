@@ -1,8 +1,10 @@
                                                                                 MAVEN
 INTERVIEW QUESTION 
-maven home path .m2
-
-
+maven is build tool
+maven home path is  = .m2
+maven main file is  = pim.xml
+maven dependency on = java
+=====≠====================================
 Maven can build any number of projects into desired output such as ,jar ,war and ,ear
 jar = java archive file
 war = web archive file
